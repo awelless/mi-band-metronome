@@ -1,0 +1,56 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 22310,
+    "appName": "metronome",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.3"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "vibro metronome app app"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "debug": false,
+  "targets": {
+    "mi-band7": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/miband7/home/index.page"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "amazfit-band7-nfc",
+          "deviceSource": 252
+        },
+        {
+          "name": "amazfit-band7",
+          "deviceSource": 253
+        },
+        {
+          "name": "amazfit-band7-w",
+          "deviceSource": 254
+        }
+      ],
+      "designWidth": 192
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Metronome"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
